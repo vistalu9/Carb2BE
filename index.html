@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BE und Insulinberechnung</title>
+    <script src="calcCarbInsulin.js"></script>
+</head>
+<body>
+    <h1>BE und Insulinberechnung</h1>
+    <label for="carbs">Kohlenhydrate in Gramm:</label>
+    <input type="number" id="carbs" min="0"><br><br>
+    <label for="insulinFactor">Insulin-Faktor:</label>
+    <input type="number" id="insulinFactor" min="0"><br><br>
+    <button onclick="berechneInsulin()">Berechne Insulin</button><br><br>
+    <div id="ergebnis"></div>
+</body>
+</html>
